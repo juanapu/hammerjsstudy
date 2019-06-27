@@ -1,0 +1,31 @@
+    body{
+    	margin: 0;
+    	padding: 0;
+    }
+    #dragWrapper{
+    	margin: 40px;
+	    background: whitesmoke;
+	    width: calc(100vw - 80px);
+	    height: calc(100vh - 80px);
+	    position: relative;
+    }
+    #drag {
+        touch-action: auto;
+        height: 300px;
+        width: 200px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bergelut_dengan_asap_nan_beracun.jpg/318px-Bergelut_dengan_asap_nan_beracun.jpg');
+       	    background-size: cover;
+    }
+
+#test{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  top: 0px;
+  background-color: red;
+  color: black;
+}
